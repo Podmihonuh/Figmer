@@ -1,0 +1,53 @@
+
+.headerSet {
+    width: 1920;
+height: 192;
+gap: 24px;
+padding-top: 24px;
+padding-right: 192px;
+padding-bottom: 24px;
+padding-left: 192px;
+position: absolute;
+}
+
+.gradient-square {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(135deg, #6a82fb 0%, #fc5c7d 100%);
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.headerSet0 {
+    width: 251px;
+    height: 32px;
+    top: 128px;
+    left: 250px;
+    position: absolute;
+    z-index: 2;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 32px;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    color: #0F172A;
+}
+
+.headerDiv1 {
+    width: 2339px;
+    height: 192px;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: -4px;
+}
+
+.gradient-square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
